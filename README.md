@@ -22,6 +22,7 @@ Install the necessary dependencies via pip:
 * `fpdf2` - Used for generating the PDF version of the password card.
 
 ## Example of a generated Password Card
+<img width="914" height="334" alt="Password Card" src="https://github.com/user-attachments/assets/a1d0eeff-3c58-44d8-9316-c88379ff2ba4" />
 
 
 ## License
