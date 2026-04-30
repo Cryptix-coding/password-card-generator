@@ -17,6 +17,14 @@ Simply execute the script `password_card.py`. On startup, the script will:
 
 To retrieve the password in the future, simply run the script again with the `.txt` file in the same directory.
 
+## How to Use the Card Manually (Without the Script)
+If you don't have access to the script and need your password, you can easily read it directly from your printed or PDF password card:
+1. Think of your secret keyword (e.g., `CAT`).
+2. For the **first letter** of your keyword (`C`), look at the **first row** of your card and find the character in column `C`.
+3. For the **second letter** (`A`), look at the **second row** and find the character in column `A`.
+4. For the **third letter** (`T`), look at the **third row** and find the character in column `T`.
+5. Continue this process, moving down one row for each letter of your keyword. The combined characters form your secure password.
+
 ## Required Python Packages
 Install the necessary dependencies via pip:
 * `fpdf2` - Used for generating the PDF version of the password card.
